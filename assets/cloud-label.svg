@@ -1,0 +1,33 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <linearGradient id="gold" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#fff7a4"/>
+      <stop offset="0.45" stop-color="#f9df61"/>
+      <stop offset="1" stop-color="#dba62d"/>
+    </linearGradient>
+    <filter id="softShadow" x="-10%" y="-16%" width="124%" height="140%">
+      <feDropShadow dx="8" dy="10" stdDeviation="4" flood-color="#000" flood-opacity=".26"/>
+    </filter>
+    <filter id="fuzz" x="-8%" y="-12%" width="120%" height="128%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="7" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="5" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+    <clipPath id="bodyClip">
+      <path d="M64 192c-32-3-50-28-46-57 4-31 30-52 62-49 14-42 58-67 103-57 24 5 45 20 58 41 28-45 91-58 136-27 22 15 35 40 36 67 38-47 114-44 148 8 31-19 76-10 96 23 34 0 62 17 76 45 6 12 5 22 2 29-19-5-38-4-56 8-21 15-50 17-74 5-23 25-66 31-96 11-31 26-83 24-111-6-31 30-86 31-118 2-30 23-76 20-101-10-29 24-76 18-96-15-5 1-11 2-19 2Z"/>
+    </clipPath>
+  </defs>
+
+  <path filter="url(#softShadow)" fill="#b75a08" d="M64 192c-32-3-50-28-46-57 4-31 30-52 62-49 14-42 58-67 103-57 24 5 45 20 58 41 28-45 91-58 136-27 22 15 35 40 36 67 38-47 114-44 148 8 31-19 76-10 96 23 34 0 62 17 76 45 6 12 5 22 2 29-19-5-38-4-56 8-21 15-50 17-74 5-23 25-66 31-96 11-31 26-83 24-111-6-31 30-86 31-118 2-30 23-76 20-101-10-29 24-76 18-96-15-5 1-11 2-19 2Z"/>
+  <path filter="url(#fuzz)" fill="#cb6811" d="M64 192c-32-3-50-28-46-57 4-31 30-52 62-49 14-42 58-67 103-57 24 5 45 20 58 41 28-45 91-58 136-27 22 15 35 40 36 67 38-47 114-44 148 8 31-19 76-10 96 23 34 0 62 17 76 45 6 12 5 22 2 29-19-5-38-4-56 8-21 15-50 17-74 5-23 25-66 31-96 11-31 26-83 24-111-6-31 30-86 31-118 2-30 23-76 20-101-10-29 24-76 18-96-15-5 1-11 2-19 2Z"/>
+  <path fill="url(#gold)" d="M73 179c-24-3-36-21-33-40 3-21 20-34 45-30 8-39 52-62 90-49 24 8 42 27 48 54 19-51 88-64 125-25 19 20 26 45 20 72 30-65 128-64 155 5 26-28 77-25 98 9 34-7 67 5 85 32-28-5-54 3-74 23-20 20-55 22-79 4-23 29-72 34-101 8-31 30-84 27-112-7-28 33-84 36-116 3-30 26-78 21-99-15-19 6-41 4-58-9-14-10-22-22-24-35 10 5 20 7 30 5Z"/>
+  <g clip-path="url(#bodyClip)" opacity=".42">
+    <rect x="0" y="0" width="760" height="300" fill="url(#gold)"/>
+    <path fill="none" stroke="#a95709" stroke-width="5" opacity=".25" d="M38 205c120-18 211-14 320 5 144 25 248 22 357-18"/>
+    <path fill="none" stroke="#fff8c8" stroke-width="8" opacity=".24" d="M91 105c33-39 103-43 137 8M282 62c52-32 118-3 130 58M502 128c39-40 101-31 126 14"/>
+    <filter id="grainFilter">
+      <feTurbulence type="fractalNoise" baseFrequency="1.25" numOctaves="2" seed="12"/>
+    </filter>
+    <rect x="0" y="0" width="760" height="300" filter="url(#grainFilter)" opacity=".22"/>
+  </g>
+</svg>
+

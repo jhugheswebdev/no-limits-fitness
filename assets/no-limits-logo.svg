@@ -1,0 +1,20 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 150" role="img" aria-labelledby="title desc">
+  <title id="title">No Limits Fitness</title>
+  <desc id="desc">Transparent white No Limits Fitness logo with four arrows crossing in an X.</desc>
+  <defs>
+    <g id="arrow">
+      <path d="M180 72 L180 20" stroke="#fff" stroke-width="8" stroke-linecap="square"/>
+      <path d="M180 12 L162 45 L180 35 L198 45 Z" fill="#fff"/>
+      <path d="M180 72 L168 50 L180 57 L192 50 Z" fill="#fff" opacity=".95"/>
+    </g>
+  </defs>
+  <g transform="rotate(-45 180 72)"><use href="#arrow"/></g>
+  <g transform="rotate(45 180 72)"><use href="#arrow"/></g>
+  <g transform="rotate(135 180 72)"><use href="#arrow"/></g>
+  <g transform="rotate(225 180 72)"><use href="#arrow"/></g>
+  <circle cx="180" cy="72" r="7" fill="#fff"/>
+  <g fill="#fff" font-family="Arial, Helvetica, sans-serif" text-anchor="middle" letter-spacing="9">
+    <text x="180" y="123" font-size="21" font-weight="700">NO LIMITS</text>
+    <text x="180" y="145" font-size="15" letter-spacing="10">FITNESS</text>
+  </g>
+</svg>
