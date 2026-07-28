@@ -1,0 +1,41 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="640" height="760" viewBox="0 0 640 760" role="img" aria-labelledby="title desc">
+  <title id="title">Jordan K. BEFORE demo transformation image</title>
+  <desc id="desc">Fictional portfolio progress image placeholder for No Limits Fitness.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2a2a31"/>
+      <stop offset="0.55" stop-color="#101017"/>
+      <stop offset="1" stop-color="#171b26"/>
+    </linearGradient>
+    <radialGradient id="light" cx="45%" cy="18%" r="65%">
+      <stop offset="0" stop-color="#11d7ff" stop-opacity="0.34"/>
+      <stop offset="1" stop-color="#11d7ff" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="14" height="14" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#ffffff" opacity="0.17"/>
+    </pattern>
+  </defs>
+  <rect width="640" height="760" fill="url(#bg)"/>
+  <rect width="640" height="760" fill="url(#light)"/>
+  <rect width="640" height="760" fill="url(#dots)"/>
+  <g opacity="0.28" stroke="#ffffff" stroke-width="9">
+    <path d="M55 610H585"/>
+    <path d="M92 130H548"/>
+    <path d="M120 130V610M520 130V610"/>
+    <path d="M150 240H490M150 344H490"/>
+  </g>
+  <g transform="translate(320 96)">
+    <circle cx="0" cy="60" r="54" fill="#61453a"/>
+    <path d="M-88 155 C-72 112,72 112,88 155 L72 420 C72 482,-72 482,-72 420 Z" fill="#61453a"/>
+    <path d="M-88 170 C-190 240,-180 332,-142 408" fill="none" stroke="#61453a" stroke-width="46" stroke-linecap="round"/>
+    <path d="M88 170 C190 240,180 332,142 408" fill="none" stroke="#61453a" stroke-width="46" stroke-linecap="round"/>
+    <path d="M-72 420 L-94 612" stroke="#61453a" stroke-width="54" stroke-linecap="round"/>
+    <path d="M72 420 L94 612" stroke="#61453a" stroke-width="54" stroke-linecap="round"/>
+    <path d="M-110 266 H110" stroke="#11d7ff" stroke-width="32" stroke-linecap="round" opacity="0.88"/>
+    <circle cx="0" cy="60" r="55" fill="none" stroke="#ffffff" stroke-opacity="0.22" stroke-width="5"/>
+  </g>
+  <rect x="36" y="34" width="194" height="54" fill="#ffd90a" stroke="#000" stroke-width="4"/>
+  <text x="54" y="70" font-family="Roboto Mono, monospace" font-size="24" font-weight="800" fill="#111">BEFORE</text>
+  <text x="36" y="704" font-family="Oswald, Impact, sans-serif" font-size="54" font-weight="700" fill="#fff" stroke="#000" stroke-width="4" paint-order="stroke">Jordan K.</text>
+</svg>
+
