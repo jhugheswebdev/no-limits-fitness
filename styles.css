@@ -2126,8 +2126,8 @@ textarea:focus-visible {
   }
 
   .logo {
-    width: clamp(150px, 14vw, 220px);
-    height: clamp(62px, 6.5vw, 92px);
+    width: clamp(190px, 18vw, 300px);
+    height: clamp(76px, 8vw, 122px);
   }
 }
 
